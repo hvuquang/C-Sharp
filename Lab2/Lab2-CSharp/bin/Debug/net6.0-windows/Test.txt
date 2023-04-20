@@ -1,0 +1,2 @@
+Name	Phone	Email	Pass	
+huy	123456	123456	123456	

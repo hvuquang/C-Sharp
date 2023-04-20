@@ -38,7 +38,7 @@
             this.tbPass = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbPhone = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tbUsername = new System.Windows.Forms.TextBox();
@@ -49,7 +49,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbEmail = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel4.SuspendLayout();
@@ -169,7 +169,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.tbPhone);
             this.panel2.Location = new System.Drawing.Point(66, 130);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
@@ -177,15 +177,15 @@
             this.panel2.Size = new System.Drawing.Size(270, 37);
             this.panel2.TabIndex = 37;
             // 
-            // textBox1
+            // tbPhone
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(8, 8);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(252, 18);
-            this.textBox1.TabIndex = 1;
+            this.tbPhone.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbPhone.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbPhone.Location = new System.Drawing.Point(8, 8);
+            this.tbPhone.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPhone.Name = "tbPhone";
+            this.tbPhone.Size = new System.Drawing.Size(252, 18);
+            this.tbPhone.TabIndex = 1;
             // 
             // label2
             // 
@@ -289,7 +289,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.tbEmail);
             this.panel5.Location = new System.Drawing.Point(66, 203);
             this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
@@ -297,15 +297,15 @@
             this.panel5.Size = new System.Drawing.Size(270, 37);
             this.panel5.TabIndex = 44;
             // 
-            // textBox2
+            // tbEmail
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox2.Location = new System.Drawing.Point(8, 8);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(252, 18);
-            this.textBox2.TabIndex = 1;
+            this.tbEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbEmail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbEmail.Location = new System.Drawing.Point(8, 8);
+            this.tbEmail.Margin = new System.Windows.Forms.Padding(2);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(252, 18);
+            this.tbEmail.TabIndex = 1;
             // 
             // label6
             // 
@@ -384,7 +384,7 @@
         private TextBox tbPass;
         private Label label3;
         private Panel panel2;
-        private TextBox textBox1;
+        private TextBox tbPhone;
         private Label label2;
         private Panel panel1;
         private TextBox tbUsername;
@@ -395,7 +395,7 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;
         private Panel panel5;
-        private TextBox textBox2;
+        private TextBox tbEmail;
         private Label label6;
         private CheckBox checkBox1;
     }
