@@ -67,7 +67,7 @@
             // btnRegisterN
             // 
             this.btnRegisterN.Location = new System.Drawing.Point(138, 431);
-            this.btnRegisterN.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRegisterN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRegisterN.Name = "btnRegisterN";
             this.btnRegisterN.Size = new System.Drawing.Size(117, 30);
             this.btnRegisterN.TabIndex = 42;
@@ -82,9 +82,9 @@
             this.panel4.Controls.Add(this.pbEye1);
             this.panel4.Controls.Add(this.tbPass1);
             this.panel4.Location = new System.Drawing.Point(66, 340);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Padding = new System.Windows.Forms.Padding(8);
+            this.panel4.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.panel4.Size = new System.Drawing.Size(270, 37);
             this.panel4.TabIndex = 41;
             // 
@@ -103,7 +103,7 @@
             this.tbPass1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbPass1.Dock = System.Windows.Forms.DockStyle.Left;
             this.tbPass1.Location = new System.Drawing.Point(8, 8);
-            this.tbPass1.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPass1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbPass1.Name = "tbPass1";
             this.tbPass1.Size = new System.Drawing.Size(218, 18);
             this.tbPass1.TabIndex = 1;
@@ -127,9 +127,9 @@
             this.panel3.Controls.Add(this.pbEye);
             this.panel3.Controls.Add(this.tbPass);
             this.panel3.Location = new System.Drawing.Point(66, 265);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Padding = new System.Windows.Forms.Padding(8);
+            this.panel3.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.panel3.Size = new System.Drawing.Size(270, 37);
             this.panel3.TabIndex = 39;
             // 
@@ -148,7 +148,7 @@
             this.tbPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbPass.Dock = System.Windows.Forms.DockStyle.Left;
             this.tbPass.Location = new System.Drawing.Point(8, 8);
-            this.tbPass.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbPass.Name = "tbPass";
             this.tbPass.Size = new System.Drawing.Size(218, 18);
             this.tbPass.TabIndex = 1;
@@ -171,9 +171,9 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.tbPhone);
             this.panel2.Location = new System.Drawing.Point(66, 130);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Padding = new System.Windows.Forms.Padding(8);
+            this.panel2.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.panel2.Size = new System.Drawing.Size(270, 37);
             this.panel2.TabIndex = 37;
             // 
@@ -182,7 +182,7 @@
             this.tbPhone.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbPhone.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbPhone.Location = new System.Drawing.Point(8, 8);
-            this.tbPhone.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPhone.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbPhone.Name = "tbPhone";
             this.tbPhone.Size = new System.Drawing.Size(252, 18);
             this.tbPhone.TabIndex = 1;
@@ -204,9 +204,9 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.tbUsername);
             this.panel1.Location = new System.Drawing.Point(66, 55);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(8);
+            this.panel1.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.panel1.Size = new System.Drawing.Size(270, 37);
             this.panel1.TabIndex = 35;
             // 
@@ -215,7 +215,7 @@
             this.tbUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbUsername.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbUsername.Location = new System.Drawing.Point(8, 8);
-            this.tbUsername.Margin = new System.Windows.Forms.Padding(2);
+            this.tbUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbUsername.Name = "tbUsername";
             this.tbUsername.Size = new System.Drawing.Size(252, 18);
             this.tbUsername.TabIndex = 1;
@@ -291,9 +291,9 @@
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.tbEmail);
             this.panel5.Location = new System.Drawing.Point(66, 203);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Padding = new System.Windows.Forms.Padding(8);
+            this.panel5.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.panel5.Size = new System.Drawing.Size(270, 37);
             this.panel5.TabIndex = 44;
             // 
@@ -302,7 +302,7 @@
             this.tbEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbEmail.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbEmail.Location = new System.Drawing.Point(8, 8);
-            this.tbEmail.Margin = new System.Windows.Forms.Padding(2);
+            this.tbEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(252, 18);
             this.tbEmail.TabIndex = 1;
