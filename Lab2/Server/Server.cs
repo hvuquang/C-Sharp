@@ -33,8 +33,15 @@ namespace Server
             {
                 Send(s);
             }
-            AddMessage(txbMessage.Text, 1);
-            txbMessage.Clear();
+            if (txbMessage.Text != String.Empty)
+            {
+                AddMessage(txbMessage.Text, 1);
+                txbMessage.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Điền thông tin trước khi gửi", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
 
@@ -83,14 +90,9 @@ namespace Server
         }
         void Send(Socket client)
         {
-
             if (txbMessage.Text != string.Empty)
             {
                 client.Send(Serialize(txbMessage.Text));
-            }
-            else
-            {
-                MessageBox.Show("Rỗng", "Lỗi từ server");
             }
         }
 

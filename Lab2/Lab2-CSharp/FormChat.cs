@@ -28,8 +28,15 @@ namespace Lab2_CSharp
         private void btnSend_Click(object sender, EventArgs e)
         {
             Send();
-            AddMessage(txbMessage.Text, 2);
-            txbMessage.Clear();
+            if (txbMessage.Text != String.Empty)
+            {
+                AddMessage(txbMessage.Text, 2);
+                txbMessage.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Điền thông tin trước khi gửi", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         IPEndPoint IP;
